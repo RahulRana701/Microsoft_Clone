@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- renamed .ico file as png -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <title>>Microsoft – Cloud, Computers, Apps &amp; Gaming</title>
+
+    <!-- FIRST CREATE WEBSITE FOR PHONE THEN FOR MORE DEVICES -->
+    <!-- we are adding classes just for reference they have no use -->
+    <!-- we can use order of flexbox to change  -->
+    <!-- flexbox wala jo chkkr ho raha tha ki ye badi width pr row kyu ni ho raha uske liye  
+    pehle aise hi set krde uske baad laga flex box do baar mt laga ki pehle flex-col
+fr flex-row vo work ni krega ek baar baad mei hi laga de flex-row badi width pr-->
+    <!-- write this in browser to get favicon https://www.microsoft.com/favicon.ico  after that
+use the code to use favicon as png to run it -->
+<!-- this is the code to get favicon in run -->
+
+  
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <div class="navbar flex justify-between h-10">
+        <div class="flex md:order-2 md:hidden">
+            <div class="hamburger px-2 py-1 cursor-pointer">
+                <div class="line bg-black h-[2px] w-4 my-[2px]"></div>
+                <div class="line bg-black h-[2px] w-4 my-[2px]"></div>
+                <div class="line bg-black h-[2px] w-4 my-[2px]"></div>
+            </div>
+            <img class=" h-[14px] w-[18px] my-[4px] mx-[7px]" src="./navimg/Daco_4558351.png" alt="">
+        </div>
+
+        <div class="flex md:order-1 px-2">
+            <img class="h-4 w-4 my-1 mx-[2px]" src="./navimg/microsoft-icon.png" alt="">
+            <div>Microsoft</div>
+            <div class="items hidden md:block">
+                <ul class="flex mx-4 space-x-4 text-sm py-[2px]">
+                    <li class="cursor-pointer hover:underline">Microsoft 365</li>
+                    <li class="cursor-pointer hover:underline">Terms</li>
+                    <li class="cursor-pointer hover:underline">Windows</li>
+                    <li class="cursor-pointer hover:underline">Surface</li>
+                    <li class="cursor-pointer hover:underline">X-Box</li>
+                    <li class="cursor-pointer hover:underline">Support</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="flex justify-between space-x-4  md:order-3">
+            <li class="hidden py-1 px-[2px] text-sm md:block">All Microsoft </li>
+            <div><img class=" hidden h-[14px] w-[18px] my-[6px] mx-[7px]  md:block" src="./navimg/Daco_4558351.png"
+                    alt="">
+            </div>
+            <div class="cart h-[27px] w-[23px] py-1 px-[2px] "> <img class="-mx-1" src="./navimg/shopping-cart-icon.png"
+                    alt=""></div>
+            <div class="account h-[27px] w-[23px] py-1 px-[2px] mx-[2px]   "> <img class="-mx-2"
+                    src="./navimg/favpng_google-account-icon-design-login.png" alt=""></div>
+        </div>
+    </div>
+
+    <!-- MAIN BODY -->
+    <div class="main lg:flex justify-evenly">
+
+        <div class="mainimg order-2"><img src="./mainbodyimg/36e335da-9137-41ca-b8ec-f0847a0e53a6.jpg" alt=""></div>
+        <div class="maininfo order-1 lg:bg-gray-800 lg:text-white lg:pr-36  ">
+            <div class="lg:w-72 lg:mt-9 lg:ml-3 xl:mt-20 2xl:mt-36">
+                <h1 class="px-1 py-1 font-bold">MICROSOFT 365</h1>
+                <p class="px-2 py-2 ">Turn your ideas into reality, stay safer online and off, and focus on what matters
+                    most with Microsoft 365 apps </p>
+                <button class="px-2 py-2 mx-2 my-2 bg-blue-500 text-white lg:my-4 hover:bg-blue-800">For One
+                    Person</button>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Section  -->
+    <div class="section  py-8 space-y-5 lg:flex lg:justify-evenly">
+        <div>
+            <img class="h-[35px] w-[30px]  m-auto lg:h-[50px] lg:w-[45px] lg:mt-4" src="./sectionimg/windows-icon.png"
+                alt="">
+            <p class="text-center lg:mt-1">Choose you Microsoft 365</p>
+        </div>
+        <div>
+            <img class="h-[30px] w-[25px]  m-auto lg:h-[50px] lg:w-[45px]" src="./sectionimg/computer-laptop-icon.png"
+                alt="">
+            <p class="text-center">Explore surface devices</p>
+        </div>
+        <div>
+            <img class="h-[30px] w-[25px]  m-auto lg:h-[50px] lg:w-[45px]" src="./sectionimg/xbox-icon.png" alt="">
+            <p class="text-center">Buy x-box games</p>
+        </div>
+        <div>
+            <img class="h-[30px] w-[25px]  m-auto lg:h-[50px] lg:w-[45px]" src="./sectionimg/windows-icon.png" alt="">
+            <p class="text-center">Get Windows 11</p>
+        </div>
+    </div>
+
+    <!-- End -->
+    <div class="end space-y-6 mt-4 bg-gray-300 lg:flex lg:justify-evenly">
+        <div class="pl-6 pt-5">
+            <ul class="space-y-2">
+                <li class="text-xl font-bold">Whats' New</li>
+                <li>Microsoft 365</li>
+                <li>Games</li>
+                <li>Surface 9 </li>
+                <li>Surface laptop</li>
+                <li>Surface Laptop 2</li>
+            </ul>
+        </div>
+        <div class="pl-6">
+            <ul class="space-y-2">
+                <li class="text-xl font-bold">Microsoft Store</li>
+                <li>Account Profile</li>
+                <li>Download Center</li>
+                <li>Returns</li>
+                <li>Order Tracking</li>
+                <li>Support</li>
+            </ul>
+        </div>
+        <div class="pl-6">
+            <ul class="space-y-2">
+                <li class="text-xl font-bold">Education</li>
+                <li>Microsoft Education</li>
+                <li>Devices for education</li>
+                <li>Microsoft Teams for Education </li>
+                <li>Office Education</li>
+                <li>Azure for students</li>
+            </ul>
+        </div>
+        <div class="pl-6 pb-3">
+            <ul class="space-y-2">
+                <li class="text-xl font-bold">Bussiness</li>
+                <li>Microsoft Cloud</li>
+                <li>Azure</li>
+                <li>Dynamics 365 </li>
+                <li>Microsoft Advertising</li>
+                <li>Microsoft Teams</li>
+            </ul>
+        </div>
+    </div>
+    <!-- FOOTER -->
+
+    <footer class=" justify-between bg-gray-300 pt-5 pb-2 lg:flex">
+        <div class="pl-4">English(India)</div>
+        <div>
+            <ul class="flex flex-wrap mt-4 justify-evenly space-x-7">
+                <li class="cursor-pointer"> Privacy</li>
+                <li class="cursor-pointer">Terms of use</li>
+                <li class="cursor-pointer">Trademarks</li>
+                <li class="cursor-pointer pr-4">© Microsoft 2023</li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
